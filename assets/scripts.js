@@ -10,3 +10,11 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.2 });
 
 sections.forEach(section => observer.observe(section));
+
+// Scroll progress bar
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const scrollPercent = (scrollTop / docHeight) * 100;
+  document.getElementById('progress').style.width = scrollPercent + "%";
+});

@@ -150,3 +150,13 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
+#progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #00adee, #0077ff);
+  width: 0%;
+  z-index: 2000;
+}

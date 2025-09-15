@@ -73,6 +73,19 @@ nav a:hover {
   margin: auto;
 }
 
+/* Hidden state */
+.section {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Visible state (added by JS) */
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .section h2 {
   font-size: 2em;
   margin-bottom: 20px;

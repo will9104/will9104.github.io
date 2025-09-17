@@ -160,3 +160,11 @@ footer {
   width: 0%;
   z-index: 2000;
 }
+
+.project-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+

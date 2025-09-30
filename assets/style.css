@@ -168,3 +168,13 @@ footer {
   margin-top: 10px;
 }
 
+.profile-pic {
+  width: 180px;         /* adjust size */
+  height: 180px;
+  object-fit: cover;    /* crops nicely */
+  border-radius: 50%;   /* makes it circular */
+  border: 3px solid #00adee; /* gradient color matches your theme */
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+

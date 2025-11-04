@@ -180,7 +180,7 @@ footer {
 
 /* General link styling */
 a {
-  color: #0077cc; /* bright blue for visibility */
+  color: #66ccff; /* bright blue for visibility */
   text-decoration: none;
   font-weight: 500;
   transition: color 0.3s ease, background-color 0.3s ease;
@@ -199,7 +199,7 @@ a.btn,
 a:hover, 
 a:focus {
   color: #ffffff;
-  background-color: #0077cc;
+  background-color: #004080;
   text-decoration: none;
 }
 

@@ -178,6 +178,39 @@ footer {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
-.link {
-  color: #00adee;
+/* General link styling */
+a {
+  color: #0077cc; /* bright blue for visibility */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Add padding and background for better contrast */
+a.btn, 
+.project-grid a {
+  background-color: rgba(0, 119, 204, 0.1);
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+/* Hover effect */
+a:hover, 
+a:focus {
+  color: #ffffff;
+  background-color: #0077cc;
+  text-decoration: none;
+}
+
+/* Specific link button style (for contact section) */
+.btn {
+  color: #fff;
+  background-color: #0077cc;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background-color: #005fa3;
 }
